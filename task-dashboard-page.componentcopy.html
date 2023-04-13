@@ -1,36 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="main-box">
-    <div class="title">
-      <h1>Task Dashboard</h1>
+<div class="body">
+  <div class="menu-task">
+    <div class="menu-box">
+      <div class="insurance">
+        <p class="ins-text">insurance</p>
+        <div class="down-line"></div>
+      </div>
+      <div> 
+        <li class="overview">Overview</li> 
+      </div>
+      <table>
+         <tr class="menu">
+          <th class="header-menu">Coverages</th>
+          <td class="item-menu"> <a href="#">Personal</a></td>
+          <td class="item-menu"><a href="#">Bussiness</a></td>
+         </tr>
+         <tr class="menu">
+          <th class="header-menu">Claims</th>
+          <td class="item-menu"><a href="#">Active Claims</a></td>
+          <td class="item-menu"><a href="#">Pass Claims</a></td>
+         </tr>
+         <tr class="menu">
+          <th class="header-menu">Setting</th>
+          <td class="item-menu"><a href="#">Account Setting</a></td> 
+          <td class="item-menu"><a href="#">Policy Setting</a></td>
+         </tr>
+      </table>
+      <div class="signout">
+        <button class="signout-button">SIGN OUT</button>
+      </div>
     </div>
-    <div class="body" style="background-color: rgb(245, 245, 245); width: 1000px; height: 1500px;">
-      <div class="search-box" style=" background-color: black; width: 80px; height: 20px; border-radius: 10px;">
-        <h3 style="color: gray;">sreach</h3>
-      </div>
-      <div class="task-box" style="display: flex; flex-direction: row; justify-content: space-around; border: black solid 1px; border-radius: 5%; background-color: white;">
-          <div class="task-name"> # Task Name</div>
-          <div class="task-tag"> Task tags</div>
-          <div class="task-hours"> Hours</div>
-          <div class="task-assign"> Task Assign name</div>
-          <div class="task-created"> Created</div>
-      </div>
-      <div class="toDo-box"></div>
-      <div class="progress-box">
-        <div class="progress-bar"></div>
-        <div class="progress-1"></div>
-        <div class="progress-2"></div>
-        <div class="progress-3"></div>
-      </div>
-      <div class="reveiw-box"></div>
+    <div class="contact">
+        <span class="material-icons">question_answer</span>
+        <div class="question"> Question?</div>
+        <div class="note"> We're here to help, just give us a shout</div>
+        <div class="contact-us">
+          <a href="">Contact Us</a>
+          <span class="material-icons">trending_flat</span>
+        </div>
     </div>
   </div>
-</body>
-</html>
+  <div class="menu-info">
+    <div id="users">
+      <div class="users-left">
+        <p class="title">Your Insurance Details</p>
+        <p class="details">View quotes, policies, and what's covered. </p>
+      </div>
+      <div class="users-right">
+        <div class="avarta"></div>
+        <div>
+          <p class="name">TMA Solutions</p>
+          <p class="email"> tma@tma.com.vn</p>
+        </div>
+      </div>
+    </div>
+    <div class="select-bar">
+        <div class="select-bar-item" id="Policies-select">Policies</div>
+        <div class="select-bar-item" id="Quotes-select">Quotes</div>
+    </div>
+    <div class="cross-line"></div>
+    <div id="Infomation">
+      <div id="Policies">
+        <div class="header-bar"></div>
+        <div class="record"></div>
+        <div class="record"></div>
+        <div class="record"></div>
+        <div class="record"></div>
+        <div class="record"></div>
+        <div class="record"></div>
+      </div>
+      <div id="Quotes"></div>
+    </div>
+  </div>
+</div>
